@@ -6,6 +6,10 @@
 namespace constants
 {
     constexpr size_t NUM_SIZE = 4;
+    constexpr char EXIT_MODE = '0';
+    constexpr char SINGLE_MODE = '1';
+    constexpr char COMPUTER_MODE = '2';
+    const vector<char> MODES = {EXIT_MODE, SINGLE_MODE, COMPUTER_MODE};
 }
 
 vector<char> generate_number()
@@ -35,7 +39,7 @@ int count(const vector<char> &digits, char d)
     return k;
 }
 
-bool validate(const vector<char> &number)
+bool validate_number(const vector<char> &number)
 {
     if (number.size() != constants::NUM_SIZE)
     {
@@ -59,6 +63,19 @@ bool validate(const vector<char> &number)
     return true;
 }
 
+bool validate_mode(const int &mode)
+{
+    if (mode != constants::EXIT_MODE &&
+        mode != constants::SINGLE_MODE &&
+        mode != constants::COMPUTER_MODE)
+    {
+        cout << "invalid input\n"
+             << endl;
+        return false;
+    }
+    return true;
+}
+
 vector<char> user_guess()
 {
     vector<char> number;
@@ -73,7 +90,7 @@ vector<char> user_guess()
     if (!std::cin)
         error("invalid input");
 
-    if (!validate(number))
+    if (!validate_number(number))
     {
         return vector<char>();
     }
@@ -82,8 +99,8 @@ vector<char> user_guess()
 }
 
 void count_bulls_and_cows(
-    int& bulls,
-    int& cows,
+    int &bulls,
+    int &cows,
     const vector<char> &uguess,
     const vector<char> &number)
 {
@@ -96,27 +113,63 @@ void count_bulls_and_cows(
     }
 }
 
-void game() {
-    vector<char> number = generate_number();
-
-    int bulls{}, cows{};
-
-    do
+char get_mode()
+{
+    vector<char> input;
+    char c;
+    while (std::cin.get(c) && c != '\n')
     {
-        bulls = 0, cows = 0;
+        input.push_back(c);
+    }
 
-        vector<char> uguess = user_guess();
-        if (uguess.empty())
+    if (input.size() != 1)
+    {
+        cout << "input size is not correct\n"
+             << endl;
+        return '\0';
+    }
+    char &mode = input[0];
+    if (std::find(
+            constants::MODES.begin(),
+            constants::MODES.end(),
+            mode) == constants::MODES.end())
+    {
+        cout << "invalid input value\n"
+             << endl;
+        return '\0';
+    }
+    return mode;
+}
+
+void game(const char &mode)
+{
+    std::cout << "game is on" << endl;
+
+    switch (mode)
+    {
+    case constants::SINGLE_MODE:
+        vector<char> number = generate_number();
+
+        int bulls{}, cows{};
+
+        do
         {
-            continue;
-        }
+            bulls = 0, cows = 0;
 
-        count_bulls_and_cows(bulls, cows, uguess, number);
+            vector<char> uguess = user_guess();
+            if (uguess.empty())
+            {
+                continue;
+            }
 
-        std::cout << bulls << " bull(s) and " << cows << " cow(s)" << endl;
-    } while (bulls != 4);
+            count_bulls_and_cows(bulls, cows, uguess, number);
 
-    std::cout << "game is over" << endl;
+            std::cout << bulls << " bull(s) and " << cows << " cow(s)" << endl;
+        } while (bulls != 4);
+    }
+
+    std::cout << "game is over\n"
+              << endl;
 }
 
 int main()
@@ -127,9 +180,29 @@ try
               << "Try to guess it.\n"
               << "<Bull> means right digit in the right position.\n"
               << "<Cow> means right digit in the wrong position.\n"
-              << "\n"
-              << "game is on" << endl;
-    game();
+              << "\n";
+
+    char mode = '0';
+    while (true)
+    {
+        std::cout << "Choose game mode:\n"
+                  << constants::EXIT_MODE << ": quit the game\n"
+                  << constants::SINGLE_MODE << ": single game\n"
+                  << constants::COMPUTER_MODE << ": game with computer\n"
+                  << "> ";
+        mode = get_mode();
+        if (mode == '\0')
+        {
+            continue;
+        }
+        std::cout << '\n';
+
+        if (mode == constants::EXIT_MODE)
+        {
+            break;
+        }
+        game(mode);
+    }
 }
 catch (exception &e)
 {
