@@ -26,15 +26,10 @@ try
                   << "> ";
         mode = get_mode();
         if (mode == '\0')
-        {
             continue;
-        }
-        std::cout << '\n';
-
         if (mode == constants::EXIT_MODE)
-        {
             break;
-        }
+        std::cout << '\n';
         game(mode);
     }
 }

@@ -4,17 +4,12 @@
 
 vector<char> user_number()
 {
-    vector<char> number;
-    char c;
+    vector<char> number = get_input();
 
-    std::cout << "guess the number: ";
-    while (std::cin.get(c) && c != '\n')
+    if (number.size() == 1 && number[0] == 'q')
     {
-        number.push_back(c);
+        return number;
     }
-
-    if (!std::cin)
-        error("invalid input");
 
     if (!validate_number(number))
     {

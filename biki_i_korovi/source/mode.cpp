@@ -1,21 +1,17 @@
 #include "mode.hpp"
 #include "constants.hpp"
+#include "help_func.hpp"
 
 char get_mode()
 {
-    vector<char> input;
-    char c;
-    while (std::cin.get(c) && c != '\n')
-    {
-        input.push_back(c);
-    }
-
+    vector<char> input = get_input();
     if (input.size() != 1)
     {
         cout << "input size is not correct\n"
              << endl;
         return '\0';
     }
+
     char &mode = input[0];
     if (std::find(
             constants::MODES.begin(),
@@ -27,17 +23,4 @@ char get_mode()
         return '\0';
     }
     return mode;
-}
-
-bool validate_mode(const int &mode)
-{
-    if (mode != constants::EXIT_MODE &&
-        mode != constants::SINGLE_MODE &&
-        mode != constants::COMPUTER_MODE)
-    {
-        cout << "invalid input\n"
-             << endl;
-        return false;
-    }
-    return true;
 }

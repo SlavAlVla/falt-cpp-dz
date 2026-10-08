@@ -1,0 +1,10 @@
+^C:\USERS\ANAST\DOCUMENTS\MIPT\1SEM\CPP_COURSE\DZ\BIKI_I_KOROVI\BUILD\CMAKEFILES\E019271F17212AADAE8D70A8147819D8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi -BC:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/build/MyProject.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

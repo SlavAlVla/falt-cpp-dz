@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\Computer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\help_func.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\mode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\user.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\Computer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\constants.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\help_func.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\mode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\user.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{55E8C758-051B-3F1A-84E0-DD624B7870EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B08B5E73-B3B2-3019-869D-5E34F32E910A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
