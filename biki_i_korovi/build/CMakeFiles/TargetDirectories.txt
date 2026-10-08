@@ -1,0 +1,3 @@
+C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/build/CMakeFiles/my_app.dir
+C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,45 @@
+// A little guessing game called
+//    (for some obscure reason) <<Bulls and Cows>>.
+
+#include <std_lib_facilities.h>
+#include "constants.hpp"
+#include "mode.hpp"
+#include "game.hpp"
+
+int main()
+try
+{
+    std::cout << "<<Bulls and Cows>>\n"
+              << "Computer sets a number of 4 unique digits.\n"
+              << "Try to guess it.\n"
+              << "<Bull> means right digit in the right position.\n"
+              << "<Cow> means right digit in the wrong position.\n"
+              << "\n";
+
+    char mode = '0';
+    while (true)
+    {
+        std::cout << "Choose game mode:\n"
+                  << constants::EXIT_MODE << ": quit the game\n"
+                  << constants::SINGLE_MODE << ": single game\n"
+                  << constants::COMPUTER_MODE << ": game with computer\n"
+                  << "> ";
+        mode = get_mode();
+        if (mode == '\0')
+            continue;
+        if (mode == constants::EXIT_MODE)
+            break;
+        std::cout << '\n';
+        game(mode);
+    }
+}
+catch (exception &e)
+{
+    cerr << e.what() << endl;
+    return 1;
+}
+catch (...)
+{
+    cerr << "Oops, something went wrong..." << endl;
+    return 2;
+}
