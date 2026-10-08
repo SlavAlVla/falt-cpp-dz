@@ -32,7 +32,10 @@ Computer::Computer()
 {
     vector<int> used(10, 0);
     generate_pool(constants::NUM_SIZE, vector<char>(), used, guess_pool);
-    guess = guess_pool[0];
+
+    std::mt19937 gen(time(nullptr));
+    std::uniform_int_distribution<> rand_guess(0, guess_pool.size() - 1);
+    guess = guess_pool[rand_guess(gen)];
 }
 
 bool Computer::is_possible_guess(const int &bulls,
