@@ -51,9 +51,10 @@ void game(const char &mode)
         do
         {
             attempts++;
+            std::cout << "attempt " << attempts << endl;
             bulls = 0, cows = 0;
 
-            std::cout << "guess the number (attempt " << attempts << "): ";
+            std::cout << "guess the number: ";
             uguess = user_number();
             if (uguess.empty())
             {
@@ -95,8 +96,9 @@ void game(const char &mode)
         do
         {
             attempts++;
+            std::cout << "attempt " << attempts << endl;
 
-            std::cout << "guess the number (attempt " << attempts << "): ";
+            std::cout << "guess the number: ";
             uguess = user_number();
             if (uguess.empty())
             {
