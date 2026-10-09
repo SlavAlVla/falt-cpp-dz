@@ -7,7 +7,7 @@ vector<char> user_number()
 {
     vector<char> number = get_input();
 
-    if (number.size() == 1 && number[0] == 'q')
+    if (number.size() == 1 && number[0] == constants::EXIT_MODE)
     {
         return number;
     }

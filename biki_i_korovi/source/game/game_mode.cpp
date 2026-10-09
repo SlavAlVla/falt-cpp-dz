@@ -9,7 +9,7 @@ char get_game_mode()
     {
         cout << "input size is not correct\n"
              << endl;
-        return '\0';
+        return constants::INVALID;
     }
 
     char &mode = input[0];
@@ -20,7 +20,7 @@ char get_game_mode()
     {
         cout << "invalid input value\n"
              << endl;
-        return '\0';
+        return constants::INVALID;
     }
     return mode;
 }
