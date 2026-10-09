@@ -4,12 +4,11 @@
 # SRC_FILES at CMakeLists.txt:8 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/*.cpp")
 set(OLD_GLOB
-  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/Computer.cpp"
-  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/game.cpp"
-  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/help_func.cpp"
+  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/computer/Computer.cpp"
+  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/game/game.cpp"
+  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/game/game_mode.cpp"
   "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/main.cpp"
-  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/mode.cpp"
-  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/user.cpp"
+  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/user/user.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -35,12 +34,13 @@ endif()
 # SRC_FILES at CMakeLists.txt:8 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/*.hpp")
 set(OLD_GLOB
-  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/Computer.hpp"
-  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/constants.hpp"
-  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/game.hpp"
-  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/help_func.hpp"
-  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/mode.hpp"
-  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/user.hpp"
+  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/computer/Computer.hpp"
+  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/constants/constants.hpp"
+  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/game/game.hpp"
+  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/game/game_mode.hpp"
+  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/support_func/count.hpp"
+  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/support_func/input.hpp"
+  "C:/Users/anast/Documents/MIPT/1sem/cpp_course/dz/biki_i_korovi/source/user/user.hpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

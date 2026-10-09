@@ -1,8 +1,8 @@
-#include "mode.hpp"
-#include "constants.hpp"
-#include "help_func.hpp"
+#include "game_mode.hpp"
+#include "../constants/constants.hpp"
+#include "../support_func/input.hpp"
 
-char get_mode()
+char get_game_mode()
 {
     vector<char> input = get_input();
     if (input.size() != 1)

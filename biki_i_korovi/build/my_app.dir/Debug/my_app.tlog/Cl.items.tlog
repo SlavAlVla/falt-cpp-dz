@@ -1,6 +1,5 @@
-C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\Computer.cpp;C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\build\my_app.dir\Debug\Computer.obj
-C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\game.cpp;C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\build\my_app.dir\Debug\game.obj
-C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\help_func.cpp;C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\build\my_app.dir\Debug\help_func.obj
+C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\computer\Computer.cpp;C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\build\my_app.dir\Debug\Computer.obj
+C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\game\game.cpp;C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\build\my_app.dir\Debug\game.obj
+C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\game\game_mode.cpp;C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\build\my_app.dir\Debug\game_mode.obj
 C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\main.cpp;C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\build\my_app.dir\Debug\main.obj
-C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\mode.cpp;C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\build\my_app.dir\Debug\mode.obj
-C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\user.cpp;C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\build\my_app.dir\Debug\user.obj
+C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\user\user.cpp;C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\build\my_app.dir\Debug\user.obj

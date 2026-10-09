@@ -1,8 +1,8 @@
 #include "game.hpp"
-#include "constants.hpp"
-#include "help_func.hpp"
-#include "user.hpp"
-#include "Computer.hpp"
+#include "../constants/constants.hpp"
+#include "../support_func/count.hpp"
+#include "../user/user.hpp"
+#include "../computer/Computer.hpp"
 
 vector<char> generate_number()
 {

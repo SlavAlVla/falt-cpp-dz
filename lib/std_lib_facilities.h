@@ -24,7 +24,6 @@
 #ifndef H112
 #define H112 251113L
 
-
 #include <iostream>
 #include <iomanip>
 #include <fstream>
@@ -46,7 +45,7 @@
 //------------------------------------------------------------------------------
 
 #ifdef __GNUC__
-#  define GCC_VERSION (__GNUC__ * 10000 + __GNUC_MINOR__ * 100 + __GNUC_PATCHLEVEL__)
+#define GCC_VERSION (__GNUC__ * 10000 + __GNUC_MINOR__ * 100 + __GNUC_PATCHLEVEL__)
 #endif
 
 //------------------------------------------------------------------------------
@@ -57,44 +56,42 @@ typedef long Unicode;
 
 using namespace std;
 
-
-template<class T> string to_string (const T& t)
+template <class T>
+string to_string(const T &t)
 {
   ostringstream os;
   os << t;
   return os.str();
 }
 
-
 struct Range_error : out_of_range // enhanced vector range error reporting
 {
   int index;
-  Range_error (int i)
-    : out_of_range("Range error: "+to_string(i))
-    , index(i)
-  {}
+  Range_error(int i)
+      : out_of_range("Range error: " + to_string(i)), index(i)
+  {
+  }
 };
 
-
 // trivially range-checked vector (no iterator checking):
-template<class T> struct Vector : std::vector<T>
+template <class T>
+struct Vector : std::vector<T>
 {
   using size_type = typename std::vector<T>::size_type;
 
 #if defined(_MSC_VER) || (defined(__GNUC__) && GCC_VERSION < 40800)
   // doesn't yet support C++11 inheriting constructors
-  Vector () {}
-  explicit Vector (size_type n) : std::vector<T>(n) {}
-  Vector (size_type n, const T& v) : std::vector<T>(n,v) {}
-  template<class I>
-  Vector (I first, I last) : std::vector<T>(first, last) {}
-  Vector (initializer_list<T> list) : std::vector<T>(list) {}
+  Vector() {}
+  explicit Vector(size_type n) : std::vector<T>(n) {}
+  Vector(size_type n, const T &v) : std::vector<T>(n, v) {}
+  template <class I>
+  Vector(I first, I last) : std::vector<T>(first, last) {}
+  Vector(initializer_list<T> list) : std::vector<T>(list) {}
 #else
-  using std::vector<T>::vector;	// inheriting constructor
+  using std::vector<T>::vector; // inheriting constructor
 #endif
 
-
-  T& operator[] (unsigned int i) // rather than return at(i);
+  T &operator[](unsigned int i) // rather than return at(i);
   {
     if (this->size() <= i)
       throw Range_error(i);
@@ -102,7 +99,7 @@ template<class T> struct Vector : std::vector<T>
     return std::vector<T>::operator[](i);
   }
 
-  const T& operator[] (unsigned int i) const
+  const T &operator[](unsigned int i) const
   {
     if (this->size() <= i)
       throw Range_error(i);
@@ -110,7 +107,6 @@ template<class T> struct Vector : std::vector<T>
     return std::vector<T>::operator[](i);
   }
 };
-
 
 // trivially range-checked string (no iterator checking):
 struct String : std::string
@@ -119,19 +115,19 @@ struct String : std::string
 
 #if defined(_MSC_VER) || (defined(__GNUC__) && GCC_VERSION < 40800)
   // doesn't yet support C++11 inheriting constructors
-  String () {}
-  String (const char *s) : std::string(s) {}
-  String (size_type n, char c) : std::string(n,c) {}
-  template<class I>
-  String (I first, I last) : std::string(first, last) {}
-  String (initializer_list<char> list) : std::string(list) {}
+  String() {}
+  String(const char *s) : std::string(s) {}
+  String(size_type n, char c) : std::string(n, c) {}
+  template <class I>
+  String(I first, I last) : std::string(first, last) {}
+  String(initializer_list<char> list) : std::string(list) {}
 #else
-  using string::string;	// inheriting constructor
+  using string::string; // inheriting constructor
 #endif
 
-  using std::string::operator =;
+  using std::string::operator=;
 
-  char& operator[] (unsigned int i) // rather than return at(i);
+  char &operator[](unsigned int i) // rather than return at(i);
   {
     if (size() <= i)
       throw Range_error(i);
@@ -139,7 +135,7 @@ struct String : std::string
     return std::string::operator[](i);
   }
 
-  const char& operator[] (unsigned int i) const
+  const char &operator[](unsigned int i) const
   {
     if (size() <= i)
       throw Range_error(i);
@@ -148,51 +144,48 @@ struct String : std::string
   }
 };
 
-
 namespace std
 {
-  template<> struct hash<String>
+  template <>
+  struct hash<String>
   {
-    size_t operator() (const String& s) const  { return hash<std::string>()(s); }
+    size_t operator()(const String &s) const { return hash<std::string>()(s); }
   };
 
 } // of namespace std
 
-
 struct Exit : runtime_error
 {
-  Exit () : runtime_error("Exit")  { }
+  Exit() : runtime_error("Exit") {}
 };
 
-
 // error() simply disguises throws:
-[[noreturn]] inline void error (const string& s)
+[[noreturn]] inline void error(const string &s)
 {
   throw runtime_error(s);
 }
 
-[[noreturn]] inline void error (const string& s, const string& s2)
+[[noreturn]] inline void error(const string &s, const string &s2)
 {
-  error (s + s2);
+  error(s + s2);
 }
 
-[[noreturn]] inline void error (const string& s, int i)
+[[noreturn]] inline void error(const string &s, int i)
 {
   ostringstream os;
-  os << s <<": " << i;
-  error (os.str());
+  os << s << ": " << i;
+  error(os.str());
 }
 
-
-template<class T> char* as_bytes (T& i)	// needed for binary I/O
+template <class T>
+char *as_bytes(T &i) // needed for binary I/O
 {
-  void* addr = &i;	// get the address of the first byte
-                    // of memory used to store the object
-  return static_cast<char*>(addr); // treat that memory as bytes
+  void *addr = &i;                  // get the address of the first byte
+                                    // of memory used to store the object
+  return static_cast<char *>(addr); // treat that memory as bytes
 }
 
-
-inline void keep_window_open ()
+inline void keep_window_open()
 {
   cin.clear();
   cout << "Please enter a character to exit\n";
@@ -200,13 +193,13 @@ inline void keep_window_open ()
   cin >> ch;
 }
 
-
-inline void keep_window_open (string s)
+inline void keep_window_open(string s)
 {
-  if (s == "") return;
+  if (s == "")
+    return;
 
   cin.clear();
-  cin.ignore(120,'\n');
+  cin.ignore(120, '\n');
   for (;;)
   {
     cout << "Please enter " << s << " to exit\n";
@@ -217,84 +210,74 @@ inline void keep_window_open (string s)
   }
 }
 
-
-
 // error function to be used (only) until error() is introduced in Chapter 5:
-inline void simple_error (string s)	// write `error: s` and exit program
+inline void simple_error(string s) // write `error: s` and exit program
 {
   cerr << "error: " << s << '\n';
-  keep_window_open();		// for some Windows environments
-  exit (1);
+  keep_window_open(); // for some Windows environments
+  exit(1);
 }
-
 
 // make std::min() and std::max() accessible on systems with antisocial macros:
 #undef min
 #undef max
 
-
 // run-time checked narrowing cast (type conversion). See ???.
-template<class R, class A> R narrow_cast (const A& a)
+template <class R, class A>
+R narrow_cast(const A &a)
 {
   R r = R(a);
-  if (A(r) != a) error (string("info loss"));
+  if (A(r) != a)
+    error(string("info loss"));
   return r;
 }
 
-
 // random number generators. See 24.7.
 
-inline int randint (int min, int max) { static default_random_engine ran; return uniform_int_distribution<>{min, max}(ran); }
+inline int randint(int min, int max)
+{
+  static default_random_engine ran;
+  return uniform_int_distribution<>{min, max}(ran);
+}
 
-inline int randint (int max) { return randint(0, max); }
+inline int randint(int max) { return randint(0, max); }
 
-
-//inline double sqrt(int x) { return sqrt(double(x)); }	// to match C++0x
-
+// inline double sqrt(int x) { return sqrt(double(x)); }	// to match C++0x
 
 // container algorithms. See 21.9.
 
-template<typename C>
+template <typename C>
 using Value_type = typename C::value_type;
 
-template<typename C>
+template <typename C>
 using Iterator = typename C::iterator;
 
-template<typename C>
+template <typename C>
 // requires Container<C>()
-void sort (C& c)
+void sort(C &c)
 {
-  std::sort (c.begin(), c.end());
+  std::sort(c.begin(), c.end());
 }
 
-template<typename C, typename Pred>
+template <typename C, typename Pred>
 // requires Container<C>() && Binary_Predicate<Value_type<C>>()
-void sort (C& c, Pred p)
+void sort(C &c, Pred p)
 {
-  std::sort (c.begin(), c.end(), p);
+  std::sort(c.begin(), c.end(), p);
 }
 
-template<typename C, typename Val>
+template <typename C, typename Val>
 // requires Container<C>() && Equality_comparable<C,Val>()
-Iterator<C> find (C& c, Val v)
+Iterator<C> find(C &c, Val v)
 {
-  return std::find (c.begin(), c.end(), v);
+  return std::find(c.begin(), c.end(), v);
 }
 
-template<typename C, typename Pred>
+template <typename C, typename Pred>
 // requires Container<C>() && Predicate<Pred,Value_type<C>>()
-Iterator<C> find_if (C& c, Pred p)
+Iterator<C> find_if(C &c, Pred p)
 {
-  return std::find_if (c.begin(), c.end(), p);
+  return std::find_if(c.begin(), c.end(), p);
 }
 
-
-
-// disgusting macro hack to get a range checked string:
-#define string String
-
-// disgusting macro hack to get a range checked vector:
-#define vector Vector
-
-
-#endif //H112
+#endif // H112
