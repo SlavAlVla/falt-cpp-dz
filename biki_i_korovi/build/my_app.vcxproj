@@ -368,18 +368,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\Computer.cpp" />
-    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\Computer.hpp" />
-    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\constants.hpp" />
-    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\game.cpp" />
-    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\game.hpp" />
-    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\help_func.cpp" />
-    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\help_func.hpp" />
+    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\computer\Computer.cpp" />
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\computer\Computer.hpp" />
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\constants\constants.hpp" />
+    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\game\game.cpp" />
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\game\game.hpp" />
+    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\game\game_mode.cpp" />
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\game\game_mode.hpp" />
     <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\main.cpp" />
-    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\mode.cpp" />
-    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\mode.hpp" />
-    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\user.cpp" />
-    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\user.hpp" />
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\support_func\count.hpp" />
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\support_func\input.hpp" />
+    <ClCompile Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\user\user.cpp" />
+    <ClInclude Include="C:\Users\anast\Documents\MIPT\1sem\cpp_course\dz\biki_i_korovi\source\user\user.hpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

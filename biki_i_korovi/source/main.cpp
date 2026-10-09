@@ -2,9 +2,9 @@
 //    (for some obscure reason) <<Bulls and Cows>>.
 
 #include <std_lib_facilities.h>
-#include "constants.hpp"
-#include "mode.hpp"
-#include "game.hpp"
+#include "./constants/constants.hpp"
+#include "./game/game_mode.hpp"
+#include "./game/game.hpp"
 
 int main()
 try
@@ -16,7 +16,7 @@ try
               << "<Cow> means right digit in the wrong position.\n"
               << "\n";
 
-    char mode = '0';
+    char game_mode = '0';
     while (true)
     {
         std::cout << "Choose game mode:\n"
@@ -24,13 +24,13 @@ try
                   << constants::SINGLE_MODE << ": single game\n"
                   << constants::COMPUTER_MODE << ": game with computer\n"
                   << "> ";
-        mode = get_mode();
-        if (mode == '\0')
+        game_mode = get_game_mode();
+        if (game_mode == '\0')
             continue;
-        if (mode == constants::EXIT_MODE)
+        if (game_mode == constants::EXIT_MODE)
             break;
         std::cout << '\n';
-        game(mode);
+        game(game_mode);
     }
 }
 catch (exception &e)

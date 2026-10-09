@@ -1,6 +1,6 @@
 #include "Computer.hpp"
-#include "constants.hpp"
-#include "help_func.hpp"
+#include "../constants/constants.hpp"
+#include "../support_func/count.hpp"
 
 void Computer::generate_pool(int target_length,
                              vector<char> &current,

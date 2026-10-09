@@ -1,6 +1,7 @@
 #include "user.hpp"
-#include "constants.hpp"
-#include "help_func.hpp"
+#include "../constants/constants.hpp"
+#include "../support_func/input.hpp"
+#include "../support_func/count.hpp"
 
 vector<char> user_number()
 {
