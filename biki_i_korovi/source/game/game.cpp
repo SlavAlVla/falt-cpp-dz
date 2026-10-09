@@ -39,7 +39,7 @@ void count_bulls_and_cows(
 
 void game(const char &mode)
 {
-    std::cout << "game is on. Type 'q' to leave the game" << endl;
+    std::cout << "game is on. Type '" << constants::EXIT_MODE << "' to leave the game" << endl;
 
     vector<char> number, uguess;
     int bulls{}, cows{}, attempts{};
@@ -61,7 +61,7 @@ void game(const char &mode)
                 attempts--;
                 continue;
             }
-            if (uguess[0] == 'q')
+            if (uguess[0] == constants::EXIT_MODE)
             {
                 break;
             }
@@ -82,7 +82,7 @@ void game(const char &mode)
             std::cout << "guess your number: ";
             unumber = user_number();
         } while (unumber.empty());
-        if (unumber[0] == 'q')
+        if (unumber[0] == constants::EXIT_MODE)
         {
             std::cout << endl;
             break;
@@ -105,7 +105,7 @@ void game(const char &mode)
                 attempts--;
                 continue;
             }
-            if (uguess[0] == 'q')
+            if (uguess[0] == constants::EXIT_MODE)
             {
                 break;
             }

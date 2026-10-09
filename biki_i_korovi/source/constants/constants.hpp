@@ -3,6 +3,7 @@
 namespace constants
 {
     constexpr size_t NUM_SIZE = 4;
+    constexpr char INVALID = '\0';
     constexpr char EXIT_MODE = 'q';
     constexpr char SINGLE_MODE = '1';
     constexpr char COMPUTER_MODE = '2';

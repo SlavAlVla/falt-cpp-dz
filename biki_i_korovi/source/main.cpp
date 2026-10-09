@@ -25,7 +25,7 @@ try
                   << constants::COMPUTER_MODE << ": game with computer\n"
                   << "> ";
         game_mode = get_game_mode();
-        if (game_mode == '\0')
+        if (game_mode == constants::INVALID)
             continue;
         if (game_mode == constants::EXIT_MODE)
             break;
