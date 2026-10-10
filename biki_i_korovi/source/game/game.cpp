@@ -66,7 +66,7 @@ void game(const char &mode)
                 break;
             }
             count_bulls_and_cows(bulls, cows, uguess, number);
-        } while (bulls != 4);
+        } while (bulls != constants::NUM_SIZE);
 
         std::cout << "game is over with " << attempts << " attempts" << endl
                   << endl;
@@ -110,7 +110,7 @@ void game(const char &mode)
                 break;
             }
             count_bulls_and_cows(bulls, cows, uguess, number);
-            if (bulls == 4)
+            if (bulls == constants::NUM_SIZE)
                 break;
 
             std::cout << "computer's guess: "
@@ -120,13 +120,13 @@ void game(const char &mode)
                       << endl;
             count_bulls_and_cows(cbulls, ccows, computer.getGuess(), unumber);
             computer.make_guess(cbulls, ccows);
-        } while (bulls != 4 && cbulls != 4);
+        } while (bulls != constants::NUM_SIZE && cbulls != constants::NUM_SIZE);
 
         std::cout << "game is over with " << attempts << " attempts" << endl;
-        if (bulls == 4)
+        if (bulls == constants::NUM_SIZE)
             std::cout << "user wins!\n"
                       << endl;
-        if (cbulls == 4)
+        if (cbulls == constants::NUM_SIZE)
             std::cout << "computer wins!\n"
                       << endl;
         break;
