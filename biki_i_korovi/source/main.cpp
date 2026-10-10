@@ -10,7 +10,7 @@ int main()
 try
 {
     std::cout << "<<Bulls and Cows>>\n"
-              << "Computer sets a number of 4 unique digits.\n"
+              << "Computer sets a number of " << constants::NUM_SIZE << " unique digits.\n"
               << "Try to guess it.\n"
               << "<Bull> means right digit in the right position.\n"
               << "<Cow> means right digit in the wrong position.\n"
