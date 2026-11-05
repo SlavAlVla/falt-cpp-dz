@@ -31,7 +31,8 @@ void Computer::generate_pool(int target_length,
 Computer::Computer()
 {
     vector<int> used(10, 0);
-    generate_pool(constants::NUM_SIZE, vector<char>(), used, guess_pool);
+    vector<char> temp_string{};
+    generate_pool(constants::NUM_SIZE, temp_string, used, guess_pool);
 
     std::mt19937 gen(time(nullptr));
     std::uniform_int_distribution<> rand_guess(0, guess_pool.size() - 1);

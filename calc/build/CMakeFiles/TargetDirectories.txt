@@ -1,0 +1,7 @@
+/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/calc/build/CMakeFiles/bool_calculator.dir
+/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/calc/build/CMakeFiles/edit_cache.dir
+/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/calc/build/CMakeFiles/rebuild_cache.dir
+/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/calc/build/CMakeFiles/list_install_components.dir
+/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/calc/build/CMakeFiles/install.dir
+/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/calc/build/CMakeFiles/install/local.dir
+/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/calc/build/CMakeFiles/install/strip.dir
