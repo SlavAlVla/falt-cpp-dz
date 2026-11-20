@@ -16,11 +16,11 @@ struct Fractal {
 };
 
 struct View {
+    static constexpr double mouse_sensitivity = 3;
+
     static constexpr double center_x = 0.0;
     static constexpr double center_y = 0.0;
     static constexpr double scale = 0.005;
-
-    static constexpr double mouse_sensitivity = 3;
 
     // static constexpr double center_x = -0.7436432;
     // static constexpr double center_y = 0.1318262;

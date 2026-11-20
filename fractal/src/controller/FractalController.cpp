@@ -7,6 +7,10 @@ ImageBuffer FractalController::render (int width, int height) const {
     return renderer_.render(width, height);
 }
 
+void FractalController::set_fractal_max_iterations () {
+    fractal().set_max_iterations(viewport().scale());
+}
+
 Viewport& FractalController::viewport () noexcept {
     return renderer_.viewport();
 }
@@ -23,5 +27,4 @@ void FractalController::center_at (double mouse_x, double mouse_y,
 void FractalController::zoom_at (double mouse_x, double mouse_y,
                                  double factor, int width, int height) {
     viewport().zoom_at(mouse_x, mouse_y, factor, width, height);
-    fractal().set_max_iterations(viewport().scale());
 }

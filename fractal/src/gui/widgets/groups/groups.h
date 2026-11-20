@@ -17,6 +17,7 @@ class FractalGroup : public Fl_Group {
                   UIGroupManager& manager);
 
     void update ();
+    void zoom (double zoom_scale);
 
   private:
     PixelCanvas* canvas_ = nullptr;

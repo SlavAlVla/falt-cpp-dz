@@ -16,3 +16,12 @@ UpdateGroupButton::UpdateGroupButton (int x, int y, int width, int height,
     : UIButton(x, y, width, height, label), group_(group) {}
 
 void UpdateGroupButton::on_click () { group_.update(); }
+
+ZoomButton::ZoomButton (int x, int y, int width, int height,
+                        const char* label, FractalGroup& group,
+                        double zoom_scale)
+    : UpdateGroupButton{x, y, width, height, label, group} {
+    zoom_scale_ = zoom_scale;
+}
+
+void ZoomButton::on_click () { group_.zoom(zoom_scale_); }
