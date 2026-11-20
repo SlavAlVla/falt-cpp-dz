@@ -1,0 +1,66 @@
+{
+	"abstract" : true,
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"find_package"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake",
+			"/opt/homebrew/share/cmake/Modules/FindFLTK.cmake",
+			"src/gui/UI/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 144,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 819,
+				"parent" : 4
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	},
+	"id" : "OpenGL::GL::@84cac5d47d4419fc614f",
+	"imported" : true,
+	"local" : true,
+	"name" : "OpenGL::GL",
+	"paths" : 
+	{
+		"build" : "src/gui/UI",
+		"source" : "src/gui/UI"
+	},
+	"sources" : [],
+	"type" : "UNKNOWN_LIBRARY"
+}

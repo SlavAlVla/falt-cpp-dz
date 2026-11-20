@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/../lib -g -std=gnu++17 -arch arm64 -o CMakeFiles/my_app.dir/source/computer/Computer.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/source/computer/Computer.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/source/computer/Computer.cpp",
+  "output": "CMakeFiles/my_app.dir/source/computer/Computer.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/../lib -g -std=gnu++17 -arch arm64 -o CMakeFiles/my_app.dir/source/game/game.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/source/game/game.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/source/game/game.cpp",
+  "output": "CMakeFiles/my_app.dir/source/game/game.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/../lib -g -std=gnu++17 -arch arm64 -o CMakeFiles/my_app.dir/source/game/game_mode.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/source/game/game_mode.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/source/game/game_mode.cpp",
+  "output": "CMakeFiles/my_app.dir/source/game/game_mode.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/../lib -g -std=gnu++17 -arch arm64 -o CMakeFiles/my_app.dir/source/main.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/source/main.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/source/main.cpp",
+  "output": "CMakeFiles/my_app.dir/source/main.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/../lib -g -std=gnu++17 -arch arm64 -o CMakeFiles/my_app.dir/source/user/user.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/source/user/user.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/biki_i_korovi/source/user/user.cpp",
+  "output": "CMakeFiles/my_app.dir/source/user/user.cpp.o"
+}
+]
