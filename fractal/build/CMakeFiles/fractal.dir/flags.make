@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
+CXX_INCLUDES = -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
 
 CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64
 

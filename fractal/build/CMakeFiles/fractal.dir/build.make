@@ -86,70 +86,247 @@ CMakeFiles/fractal.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/main.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/main.cpp -o CMakeFiles/fractal.dir/src/main.cpp.s
 
-CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o: CMakeFiles/fractal.dir/flags.make
-CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroup/UIGroup.cpp
-CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o -MF CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o.d -o CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroup/UIGroup.cpp
+CMakeFiles/fractal.dir/src/core/Complex.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/core/Complex.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Complex.cpp
+CMakeFiles/fractal.dir/src/core/Complex.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fractal.dir/src/core/Complex.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/core/Complex.cpp.o -MF CMakeFiles/fractal.dir/src/core/Complex.cpp.o.d -o CMakeFiles/fractal.dir/src/core/Complex.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Complex.cpp
 
-CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroup/UIGroup.cpp > CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.i
+CMakeFiles/fractal.dir/src/core/Complex.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/core/Complex.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Complex.cpp > CMakeFiles/fractal.dir/src/core/Complex.cpp.i
 
-CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroup/UIGroup.cpp -o CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.s
+CMakeFiles/fractal.dir/src/core/Complex.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/core/Complex.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Complex.cpp -o CMakeFiles/fractal.dir/src/core/Complex.cpp.s
 
-CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o: CMakeFiles/fractal.dir/flags.make
-CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroupManager/UIGroupManager.cpp
-CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o -MF CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o.d -o CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroupManager/UIGroupManager.cpp
+CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Mandelbrot.cpp
+CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o -MF CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o.d -o CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Mandelbrot.cpp
 
-CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroupManager/UIGroupManager.cpp > CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.i
+CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Mandelbrot.cpp > CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.i
 
-CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroupManager/UIGroupManager.cpp -o CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.s
+CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Mandelbrot.cpp -o CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.s
 
-CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o: CMakeFiles/fractal.dir/flags.make
-CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIButton/UIButton.cpp
-CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o -MF CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o.d -o CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIButton/UIButton.cpp
+CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Colorizer.cpp
+CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o -MF CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o.d -o CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Colorizer.cpp
 
-CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIButton/UIButton.cpp > CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.i
+CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Colorizer.cpp > CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.i
 
-CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIButton/UIButton.cpp -o CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.s
+CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Colorizer.cpp -o CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.s
+
+CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Renderer.cpp
+CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o -MF CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o.d -o CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Renderer.cpp
+
+CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Renderer.cpp > CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.i
+
+CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Renderer.cpp -o CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.s
+
+CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/ImageBuffer.cpp
+CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o -MF CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o.d -o CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/ImageBuffer.cpp
+
+CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/ImageBuffer.cpp > CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.i
+
+CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/ImageBuffer.cpp -o CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.s
+
+CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Viewport.cpp
+CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o -MF CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o.d -o CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Viewport.cpp
+
+CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Viewport.cpp > CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.i
+
+CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Viewport.cpp -o CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.s
+
+CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/controller/FractalController.cpp
+CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o -MF CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o.d -o CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/controller/FractalController.cpp
+
+CMakeFiles/fractal.dir/src/controller/FractalController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/controller/FractalController.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/controller/FractalController.cpp > CMakeFiles/fractal.dir/src/controller/FractalController.cpp.i
+
+CMakeFiles/fractal.dir/src/controller/FractalController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/controller/FractalController.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/controller/FractalController.cpp -o CMakeFiles/fractal.dir/src/controller/FractalController.cpp.s
+
+CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIButton/UIButton.cpp
+CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o -MF CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o.d -o CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIButton/UIButton.cpp
+
+CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIButton/UIButton.cpp > CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.i
+
+CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIButton/UIButton.cpp -o CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.s
+
+CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIGroupManager/UIGroupManager.cpp
+CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o -MF CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o.d -o CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIGroupManager/UIGroupManager.cpp
+
+CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIGroupManager/UIGroupManager.cpp > CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.i
+
+CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIGroupManager/UIGroupManager.cpp -o CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.s
+
+CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainWindow/MainWindow.cpp
+CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o -MF CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o.d -o CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainWindow/MainWindow.cpp
+
+CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainWindow/MainWindow.cpp > CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.i
+
+CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainWindow/MainWindow.cpp -o CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.s
+
+CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainGroupManager/MainGroupManager.cpp
+CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o -MF CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o.d -o CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainGroupManager/MainGroupManager.cpp
+
+CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainGroupManager/MainGroupManager.cpp > CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.i
+
+CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainGroupManager/MainGroupManager.cpp -o CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.s
+
+CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/PixelCanvas/PixelCanvas.cpp
+CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o -MF CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o.d -o CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/PixelCanvas/PixelCanvas.cpp
+
+CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/PixelCanvas/PixelCanvas.cpp > CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.i
+
+CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/PixelCanvas/PixelCanvas.cpp -o CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.s
+
+CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/buttons/buttons.cpp
+CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o -MF CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o.d -o CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/buttons/buttons.cpp
+
+CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/buttons/buttons.cpp > CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.i
+
+CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/buttons/buttons.cpp -o CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.s
+
+CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o: CMakeFiles/fractal.dir/flags.make
+CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o: /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/groups/groups.cpp
+CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o: CMakeFiles/fractal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o -MF CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o.d -o CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/groups/groups.cpp
+
+CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/groups/groups.cpp > CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.i
+
+CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/groups/groups.cpp -o CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.s
 
 # Object files for target fractal
 fractal_OBJECTS = \
 "CMakeFiles/fractal.dir/src/main.cpp.o" \
-"CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o" \
-"CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o" \
-"CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o"
+"CMakeFiles/fractal.dir/src/core/Complex.cpp.o" \
+"CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o" \
+"CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o" \
+"CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o" \
+"CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o" \
+"CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o" \
+"CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o" \
+"CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o" \
+"CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o" \
+"CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o" \
+"CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o" \
+"CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o" \
+"CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o" \
+"CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o"
 
 # External object files for target fractal
 fractal_EXTERNAL_OBJECTS =
 
 fractal: CMakeFiles/fractal.dir/src/main.cpp.o
-fractal: CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o
-fractal: CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o
-fractal: CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o
+fractal: CMakeFiles/fractal.dir/src/core/Complex.cpp.o
+fractal: CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o
+fractal: CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o
+fractal: CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o
+fractal: CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o
+fractal: CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o
+fractal: CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o
+fractal: CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o
+fractal: CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o
+fractal: CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o
+fractal: CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o
+fractal: CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o
+fractal: CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o
+fractal: CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o
 fractal: CMakeFiles/fractal.dir/build.make
+fractal: src/gui/UI/libUI.a
 fractal: /opt/homebrew/lib/libfltk_images.dylib
 fractal: /opt/homebrew/lib/libfltk_forms.dylib
 fractal: /opt/homebrew/lib/libfltk_gl.dylib
 fractal: /opt/homebrew/lib/libfltk.dylib
 fractal: /opt/homebrew/lib/libfltk.dylib
 fractal: CMakeFiles/fractal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable fractal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable fractal"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fractal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

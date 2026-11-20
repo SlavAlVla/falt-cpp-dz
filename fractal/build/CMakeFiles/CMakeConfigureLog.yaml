@@ -5,7 +5,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_UNAME"
     description: "Path to a program."
@@ -53,19 +53,18 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "message-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     message: |
       The system is: Darwin - 25.5.0 - arm64
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Path to a program."
@@ -127,7 +126,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
@@ -136,7 +134,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -168,14 +166,13 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "message-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: /usr/bin/clang++ 
@@ -196,7 +193,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:323 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     message: |
       Detecting CXX compiler apple sysroot: "/usr/bin/clang++" "-E" "apple-sdk.cpp"
         # 1 "apple-sdk.cpp"
@@ -237,7 +234,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -280,13 +277,12 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -329,13 +325,12 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -378,13 +373,12 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -427,13 +421,12 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -476,13 +469,12 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -525,13 +517,12 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -587,13 +578,12 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -649,13 +639,12 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -711,13 +700,12 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -773,13 +761,12 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -835,13 +822,12 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
   -
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:66 (find_program)"
       - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     mode: "program"
     variable: "CMAKE_INSTALL_NAME_TOOL"
     description: "Path to a program."
@@ -889,19 +875,18 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
   -
     kind: "try_compile-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-ulVKJH"
-      binary: "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-ulVKJH"
+      source: "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-CLsQ0L"
+      binary: "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-CLsQ0L"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -915,19 +900,19 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-ulVKJH'
+        Change Dir: '/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-CLsQ0L'
         
-        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_89711/fast
-        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_89711.dir/build.make CMakeFiles/cmTC_89711.dir/build
-        Building CXX object CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_32433/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_32433.dir/build.make CMakeFiles/cmTC_32433.dir/build
+        Building CXX object CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Apple clang version 21.0.0 (clang-2100.1.1.101)
         Target: arm64-apple-darwin25.5.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
         clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"
-         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.5 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-ulVKJH -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-ulVKJH -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.5 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-CLsQ0L -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-CLsQ0L -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target arm64-apple-darwin25.5.0
         ignoring nonexistent directory "/usr/local/include"
         ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
@@ -941,13 +926,13 @@ events:
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
          /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
         End of search list.
-        Linking CXX executable cmTC_89711
-        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89711.dir/link.txt --verbose=1
+        Linking CXX executable cmTC_32433
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32433.dir/link.txt --verbose=1
         Apple clang version 21.0.0 (clang-2100.1.1.101)
         Target: arm64-apple-darwin25.5.0
         Thread model: posix
         InstalledDir: /Library/Developer/CommandLineTools/usr/bin
-         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_89711 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_32433 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
         @(#)PROGRAM:ld PROJECT:ld-1267
         BUILD 16:38:58 Jun  8 2026
         configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
@@ -959,7 +944,7 @@ events:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
         Framework search paths:
         	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
-        /usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_89711
+        /usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_32433
         
       exitCode: 0
   -
@@ -967,7 +952,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:160 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     message: |
       Effective list of requested architectures (possibly empty)  : ""
       Effective list of architectures found in the ABI info binary: "arm64"
@@ -976,7 +961,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -998,24 +983,24 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-ulVKJH']
+        ignore line: [Change Dir: '/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-CLsQ0L']
         ignore line: []
-        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_89711/fast]
-        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_89711.dir/build.make CMakeFiles/cmTC_89711.dir/build]
-        ignore line: [Building CXX object CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_32433/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_32433.dir/build.make CMakeFiles/cmTC_32433.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
         ignore line: [Target: arm64-apple-darwin25.5.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
         ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"]
-        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.5 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-ulVKJH -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-ulVKJH -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.5 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-CLsQ0L -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles/CMakeScratch/TryCompile-CLsQ0L -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target arm64-apple-darwin25.5.0]
         ignore line: [ignoring nonexistent directory "/usr/local/include"]
         ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
@@ -1029,14 +1014,14 @@ events:
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
         ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
         ignore line: [End of search list.]
-        ignore line: [Linking CXX executable cmTC_89711]
-        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89711.dir/link.txt --verbose=1]
+        ignore line: [Linking CXX executable cmTC_32433]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32433.dir/link.txt --verbose=1]
         ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
         ignore line: [Target: arm64-apple-darwin25.5.0]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_89711 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> linker [/Library/Developer/CommandLineTools/usr/bin/ld]
-        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_89711 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_32433 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> linker [/Library/Developer/CommandLineTools/usr/bin/ld]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.5 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_32433 -L/usr/local/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
           arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
           arg [-demangle] ==> ignore
           arg [-lto_library] ==> ignore, skip following value
@@ -1053,12 +1038,12 @@ events:
           arg [-mllvm] ==> ignore
           arg [-enable-linkonceodr-outlining] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_89711] ==> ignore
+          arg [cmTC_32433] ==> ignore
           arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
           arg [-search_paths_first] ==> ignore
           arg [-headerpad_max_install_names] ==> ignore
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_89711.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_32433.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lc++] ==> lib [c++]
           arg [-lSystem] ==> lib [System]
           arg [/Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
@@ -1083,7 +1068,7 @@ events:
       - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
       - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
       - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:16 (project)"
+      - "CMakeLists.txt:33 (project)"
     message: |
       Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
       @(#)PROGRAM:ld PROJECT:ld-1267
@@ -1097,7 +1082,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake:356 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:144 (find_package)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "OPENGL_gl_LIBRARY"
     description: "OpenGL GL library"
@@ -1149,7 +1134,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1181,7 +1165,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake:358 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:144 (find_package)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "OPENGL_glu_LIBRARY"
     description: "OpenGL GLU library"
@@ -1233,7 +1217,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1265,7 +1248,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake:360 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:144 (find_package)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "OPENGL_INCLUDE_DIR"
     description: "Include for OpenGL"
@@ -1373,7 +1356,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1405,7 +1387,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindOpenGL.cmake:362 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:144 (find_package)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "OPENGL_GLU_INCLUDE_DIR"
     description: "Include for the OpenGL GLU library"
@@ -1513,7 +1495,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1545,7 +1526,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:172 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_X11_INCLUDE_PATH"
     description: "Path to a file."
@@ -1671,7 +1652,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1703,7 +1683,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:173 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xlib_INCLUDE_PATH"
     description: "Path to a file."
@@ -1829,7 +1809,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -1861,7 +1840,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:179 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_ICE_INCLUDE_PATH"
     description: "Path to a file."
@@ -1987,7 +1966,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2019,7 +1997,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:180 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_SM_INCLUDE_PATH"
     description: "Path to a file."
@@ -2145,7 +2123,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2177,7 +2154,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:181 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xaccessrules_INCLUDE_PATH"
     description: "Path to a file."
@@ -2303,7 +2280,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2335,7 +2311,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:182 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xaccessstr_INCLUDE_PATH"
     description: "Path to a file."
@@ -2461,7 +2437,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2493,7 +2468,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:183 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xau_INCLUDE_PATH"
     description: "Path to a file."
@@ -2619,7 +2594,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2651,7 +2625,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:184 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xaw_INCLUDE_PATH"
     description: "Path to a file."
@@ -2777,7 +2751,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2809,7 +2782,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:185 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_INCLUDE_PATH"
     description: "Path to a file."
@@ -2935,7 +2908,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -2967,7 +2939,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:186 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_X11_xcb_INCLUDE_PATH"
     description: "Path to a file."
@@ -3093,7 +3065,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3125,7 +3096,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:187 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_composite_INCLUDE_PATH"
     description: "Path to a file."
@@ -3251,7 +3222,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3283,7 +3253,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:188 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_cursor_INCLUDE_PATH"
     description: "Path to a file."
@@ -3409,7 +3379,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3441,7 +3410,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:189 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_damage_INCLUDE_PATH"
     description: "Path to a file."
@@ -3567,7 +3536,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3599,7 +3567,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:190 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_dpms_INCLUDE_PATH"
     description: "Path to a file."
@@ -3725,7 +3693,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3757,7 +3724,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:191 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_dri2_INCLUDE_PATH"
     description: "Path to a file."
@@ -3883,7 +3850,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -3915,7 +3881,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:192 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_dri3_INCLUDE_PATH"
     description: "Path to a file."
@@ -4041,7 +4007,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -4073,7 +4038,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:193 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_errors_INCLUDE_PATH"
     description: "Path to a file."
@@ -4199,7 +4164,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -4231,7 +4195,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:194 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_ewmh_INCLUDE_PATH"
     description: "Path to a file."
@@ -4357,7 +4321,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -4389,7 +4352,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:195 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_glx_INCLUDE_PATH"
     description: "Path to a file."
@@ -4515,7 +4478,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -4547,7 +4509,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:196 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_icccm_INCLUDE_PATH"
     description: "Path to a file."
@@ -4673,7 +4635,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -4705,7 +4666,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:197 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_image_INCLUDE_PATH"
     description: "Path to a file."
@@ -4831,7 +4792,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -4863,7 +4823,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:198 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_keysyms_INCLUDE_PATH"
     description: "Path to a file."
@@ -4989,7 +4949,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -5021,7 +4980,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:199 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_present_INCLUDE_PATH"
     description: "Path to a file."
@@ -5147,7 +5106,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -5179,7 +5137,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:200 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_randr_INCLUDE_PATH"
     description: "Path to a file."
@@ -5305,7 +5263,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -5337,7 +5294,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:201 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_record_INCLUDE_PATH"
     description: "Path to a file."
@@ -5463,7 +5420,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -5495,7 +5451,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:202 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_render_INCLUDE_PATH"
     description: "Path to a file."
@@ -5621,7 +5577,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -5653,7 +5608,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:203 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_render_util_INCLUDE_PATH"
     description: "Path to a file."
@@ -5779,7 +5734,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -5811,7 +5765,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:204 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_res_INCLUDE_PATH"
     description: "Path to a file."
@@ -5937,7 +5891,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -5969,7 +5922,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:205 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_screensaver_INCLUDE_PATH"
     description: "Path to a file."
@@ -6095,7 +6048,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -6127,7 +6079,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:206 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_shape_INCLUDE_PATH"
     description: "Path to a file."
@@ -6253,7 +6205,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -6285,7 +6236,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:207 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_shm_INCLUDE_PATH"
     description: "Path to a file."
@@ -6411,7 +6362,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -6443,7 +6393,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:208 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_sync_INCLUDE_PATH"
     description: "Path to a file."
@@ -6569,7 +6519,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -6601,7 +6550,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:209 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_util_INCLUDE_PATH"
     description: "Path to a file."
@@ -6727,7 +6676,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -6759,7 +6707,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:210 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_xf86dri_INCLUDE_PATH"
     description: "Path to a file."
@@ -6885,7 +6833,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -6917,7 +6864,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:211 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_xfixes_INCLUDE_PATH"
     description: "Path to a file."
@@ -7043,7 +6990,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -7075,7 +7021,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:212 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_xinerama_INCLUDE_PATH"
     description: "Path to a file."
@@ -7201,7 +7147,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -7233,7 +7178,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:213 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_xinput_INCLUDE_PATH"
     description: "Path to a file."
@@ -7359,7 +7304,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -7391,7 +7335,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:214 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_xkb_INCLUDE_PATH"
     description: "Path to a file."
@@ -7517,7 +7461,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -7549,7 +7492,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:215 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_xrm_INCLUDE_PATH"
     description: "Path to a file."
@@ -7675,7 +7618,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -7707,7 +7649,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:216 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_xtest_INCLUDE_PATH"
     description: "Path to a file."
@@ -7833,7 +7775,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -7865,7 +7806,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:217 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_xvmc_INCLUDE_PATH"
     description: "Path to a file."
@@ -7991,7 +7932,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -8023,7 +7963,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:218 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xcb_xv_INCLUDE_PATH"
     description: "Path to a file."
@@ -8149,7 +8089,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -8181,7 +8120,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:219 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xcomposite_INCLUDE_PATH"
     description: "Path to a file."
@@ -8307,7 +8246,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -8339,7 +8277,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:220 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xcursor_INCLUDE_PATH"
     description: "Path to a file."
@@ -8465,7 +8403,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -8497,7 +8434,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:221 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xdamage_INCLUDE_PATH"
     description: "Path to a file."
@@ -8623,7 +8560,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -8655,7 +8591,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:222 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xdbe_INCLUDE_PATH"
     description: "Path to a file."
@@ -8781,7 +8717,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -8813,7 +8748,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:223 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xdmcp_INCLUDE_PATH"
     description: "Path to a file."
@@ -8939,7 +8874,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -8971,7 +8905,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:224 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xext_INCLUDE_PATH"
     description: "Path to a file."
@@ -9097,7 +9031,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -9129,7 +9062,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:225 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_dpms_INCLUDE_PATH"
     description: "Path to a file."
@@ -9255,7 +9188,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -9287,7 +9219,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:226 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xxf86misc_INCLUDE_PATH"
     description: "Path to a file."
@@ -9413,7 +9345,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -9445,7 +9376,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:227 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xxf86vm_INCLUDE_PATH"
     description: "Path to a file."
@@ -9571,7 +9502,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -9603,7 +9533,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:228 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xfixes_INCLUDE_PATH"
     description: "Path to a file."
@@ -9729,7 +9659,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -9761,7 +9690,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:229 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xft_INCLUDE_PATH"
     description: "Path to a file."
@@ -9887,7 +9816,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -9919,7 +9847,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:230 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xi_INCLUDE_PATH"
     description: "Path to a file."
@@ -10045,7 +9973,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -10077,7 +10004,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:231 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xinerama_INCLUDE_PATH"
     description: "Path to a file."
@@ -10203,7 +10130,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -10235,7 +10161,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:232 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xkb_INCLUDE_PATH"
     description: "Path to a file."
@@ -10361,7 +10287,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -10393,7 +10318,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:233 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xkbcommon_INCLUDE_PATH"
     description: "Path to a file."
@@ -10519,7 +10444,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -10551,7 +10475,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:234 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xkbcommon_X11_INCLUDE_PATH"
     description: "Path to a file."
@@ -10677,7 +10601,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -10709,7 +10632,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:235 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xkblib_INCLUDE_PATH"
     description: "Path to a file."
@@ -10835,7 +10758,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -10867,7 +10789,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:236 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_xkbfile_INCLUDE_PATH"
     description: "Path to a file."
@@ -10993,7 +10915,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -11025,7 +10946,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:237 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xmu_INCLUDE_PATH"
     description: "Path to a file."
@@ -11151,7 +11072,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -11183,7 +11103,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:238 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xpm_INCLUDE_PATH"
     description: "Path to a file."
@@ -11309,7 +11229,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -11341,7 +11260,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:239 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xpresent_INCLUDE_PATH"
     description: "Path to a file."
@@ -11467,7 +11386,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -11499,7 +11417,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:240 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xtst_INCLUDE_PATH"
     description: "Path to a file."
@@ -11625,7 +11543,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -11657,7 +11574,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:241 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_XShm_INCLUDE_PATH"
     description: "Path to a file."
@@ -11783,7 +11700,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -11815,7 +11731,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:242 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xrandr_INCLUDE_PATH"
     description: "Path to a file."
@@ -11941,7 +11857,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -11973,7 +11888,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:243 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xrender_INCLUDE_PATH"
     description: "Path to a file."
@@ -12099,7 +12014,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -12131,7 +12045,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:244 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_XRes_INCLUDE_PATH"
     description: "Path to a file."
@@ -12257,7 +12171,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -12289,7 +12202,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:245 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xss_INCLUDE_PATH"
     description: "Path to a file."
@@ -12415,7 +12328,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -12447,7 +12359,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:246 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xshape_INCLUDE_PATH"
     description: "Path to a file."
@@ -12573,7 +12485,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -12605,7 +12516,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:247 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xutil_INCLUDE_PATH"
     description: "Path to a file."
@@ -12731,7 +12642,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -12763,7 +12673,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:248 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xt_INCLUDE_PATH"
     description: "Path to a file."
@@ -12889,7 +12799,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -12921,7 +12830,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:249 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_Xv_INCLUDE_PATH"
     description: "Path to a file."
@@ -13047,7 +12956,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -13079,7 +12987,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:250 (find_path)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "X11_XSync_INCLUDE_PATH"
     description: "Path to a file."
@@ -13205,7 +13113,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -13237,7 +13144,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:262 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_X11_LIB"
     description: "Path to a library."
@@ -13309,7 +13216,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -13341,7 +13247,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:265 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_ICE_LIB"
     description: "Path to a library."
@@ -13413,7 +13319,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -13445,7 +13350,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:266 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_SM_LIB"
     description: "Path to a library."
@@ -13517,7 +13422,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -13549,7 +13453,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:267 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xau_LIB"
     description: "Path to a library."
@@ -13621,7 +13525,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -13653,7 +13556,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:268 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xaw_LIB"
     description: "Path to a library."
@@ -13725,7 +13628,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -13757,7 +13659,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:269 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_LIB"
     description: "Path to a library."
@@ -13829,7 +13731,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -13861,7 +13762,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:270 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_X11_xcb_LIB"
     description: "Path to a library."
@@ -13933,7 +13834,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -13965,7 +13865,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:271 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_composite_LIB"
     description: "Path to a library."
@@ -14037,7 +13937,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -14069,7 +13968,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:272 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_cursor_LIB"
     description: "Path to a library."
@@ -14141,7 +14040,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -14173,7 +14071,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:273 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_damage_LIB"
     description: "Path to a library."
@@ -14245,7 +14143,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -14277,7 +14174,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:274 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_dpms_LIB"
     description: "Path to a library."
@@ -14349,7 +14246,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -14381,7 +14277,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:275 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_dri2_LIB"
     description: "Path to a library."
@@ -14453,7 +14349,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -14485,7 +14380,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:276 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_dri3_LIB"
     description: "Path to a library."
@@ -14557,7 +14452,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -14589,7 +14483,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:277 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_errors_LIB"
     description: "Path to a library."
@@ -14661,7 +14555,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -14693,7 +14586,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:278 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_ewmh_LIB"
     description: "Path to a library."
@@ -14765,7 +14658,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -14797,7 +14689,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:279 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_glx_LIB"
     description: "Path to a library."
@@ -14869,7 +14761,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -14901,7 +14792,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:280 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_icccm_LIB"
     description: "Path to a library."
@@ -14973,7 +14864,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -15005,7 +14895,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:281 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_image_LIB"
     description: "Path to a library."
@@ -15077,7 +14967,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -15109,7 +14998,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:282 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_keysyms_LIB"
     description: "Path to a library."
@@ -15181,7 +15070,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -15213,7 +15101,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:283 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_present_LIB"
     description: "Path to a library."
@@ -15285,7 +15173,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -15317,7 +15204,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:284 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_randr_LIB"
     description: "Path to a library."
@@ -15389,7 +15276,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -15421,7 +15307,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:285 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_record_LIB"
     description: "Path to a library."
@@ -15493,7 +15379,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -15525,7 +15410,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:286 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_render_LIB"
     description: "Path to a library."
@@ -15597,7 +15482,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -15629,7 +15513,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:287 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_render_util_LIB"
     description: "Path to a library."
@@ -15701,7 +15585,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -15733,7 +15616,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:288 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_res_LIB"
     description: "Path to a library."
@@ -15805,7 +15688,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -15837,7 +15719,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:289 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_screensaver_LIB"
     description: "Path to a library."
@@ -15909,7 +15791,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -15941,7 +15822,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:290 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_shape_LIB"
     description: "Path to a library."
@@ -16013,7 +15894,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -16045,7 +15925,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:291 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_shm_LIB"
     description: "Path to a library."
@@ -16117,7 +15997,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -16149,7 +16028,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:292 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_sync_LIB"
     description: "Path to a library."
@@ -16221,7 +16100,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -16253,7 +16131,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:293 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_util_LIB"
     description: "Path to a library."
@@ -16325,7 +16203,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -16357,7 +16234,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:294 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_xf86dri_LIB"
     description: "Path to a library."
@@ -16429,7 +16306,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -16461,7 +16337,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:295 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_xfixes_LIB"
     description: "Path to a library."
@@ -16533,7 +16409,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -16565,7 +16440,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:296 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_xinerama_LIB"
     description: "Path to a library."
@@ -16637,7 +16512,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -16669,7 +16543,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:297 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_xinput_LIB"
     description: "Path to a library."
@@ -16741,7 +16615,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -16773,7 +16646,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:298 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_xkb_LIB"
     description: "Path to a library."
@@ -16845,7 +16718,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -16877,7 +16749,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:299 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_xrm_LIB"
     description: "Path to a library."
@@ -16949,7 +16821,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -16981,7 +16852,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:300 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_xtest_LIB"
     description: "Path to a library."
@@ -17053,7 +16924,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -17085,7 +16955,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:301 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_xvmc_LIB"
     description: "Path to a library."
@@ -17157,7 +17027,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -17189,7 +17058,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:302 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xcb_xv_LIB"
     description: "Path to a library."
@@ -17261,7 +17130,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -17293,7 +17161,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:303 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xcomposite_LIB"
     description: "Path to a library."
@@ -17365,7 +17233,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -17397,7 +17264,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:304 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xcursor_LIB"
     description: "Path to a library."
@@ -17469,7 +17336,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -17501,7 +17367,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:305 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xdamage_LIB"
     description: "Path to a library."
@@ -17573,7 +17439,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -17605,7 +17470,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:306 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xdmcp_LIB"
     description: "Path to a library."
@@ -17677,7 +17542,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -17709,7 +17573,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:307 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xext_LIB"
     description: "Path to a library."
@@ -17781,7 +17645,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -17813,7 +17676,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:308 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xfixes_LIB"
     description: "Path to a library."
@@ -17885,7 +17748,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -17917,7 +17779,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:309 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xft_LIB"
     description: "Path to a library."
@@ -17989,7 +17851,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -18021,7 +17882,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:310 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xi_LIB"
     description: "Path to a library."
@@ -18093,7 +17954,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -18125,7 +17985,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:311 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xinerama_LIB"
     description: "Path to a library."
@@ -18197,7 +18057,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -18229,7 +18088,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:312 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xkbcommon_LIB"
     description: "Path to a library."
@@ -18301,7 +18160,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -18333,7 +18191,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:313 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xkbcommon_X11_LIB"
     description: "Path to a library."
@@ -18405,7 +18263,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -18437,7 +18294,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:314 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_xkbfile_LIB"
     description: "Path to a library."
@@ -18509,7 +18366,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -18541,7 +18397,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:315 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xmu_LIB"
     description: "Path to a library."
@@ -18613,7 +18469,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -18645,7 +18500,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:316 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xpm_LIB"
     description: "Path to a library."
@@ -18717,7 +18572,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -18749,7 +18603,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:317 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xpresent_LIB"
     description: "Path to a library."
@@ -18821,7 +18675,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -18853,7 +18706,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:318 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xrandr_LIB"
     description: "Path to a library."
@@ -18925,7 +18778,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -18957,7 +18809,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:319 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xrender_LIB"
     description: "Path to a library."
@@ -19029,7 +18881,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -19061,7 +18912,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:320 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_XRes_LIB"
     description: "Path to a library."
@@ -19133,7 +18984,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -19165,7 +19015,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:321 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xss_LIB"
     description: "Path to a library."
@@ -19237,7 +19087,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -19269,7 +19118,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:322 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xt_LIB"
     description: "Path to a library."
@@ -19341,7 +19190,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -19373,7 +19221,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:323 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xtst_LIB"
     description: "Path to a library."
@@ -19445,7 +19293,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -19477,7 +19324,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:324 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xv_LIB"
     description: "Path to a library."
@@ -19549,7 +19396,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -19581,7 +19427,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:325 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xxf86misc_LIB"
     description: "Path to a library."
@@ -19653,7 +19499,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -19685,7 +19530,7 @@ events:
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindX11.cmake:326 (find_library)"
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:159 (include)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "X11_Xxf86vm_LIB"
     description: "Path to a library."
@@ -19757,7 +19602,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -19788,7 +19632,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:160 (find_library)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "FLTK_MATH_LIBRARY"
     description: "Path to a library."
@@ -19848,7 +19692,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -19879,7 +19722,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:192 (find_path)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "FLTK_DIR"
     description: "The directory containing FLTKConfig.cmake.  This is either the root of the build tree, or PREFIX/lib/fltk for an installation."
@@ -20401,7 +20244,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -20432,7 +20274,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:270 (find_program)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "program"
     variable: "FLTK_FLUID_EXECUTABLE"
     description: "Path to a program."
@@ -20507,7 +20349,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -20529,7 +20370,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:289 (find_program)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "program"
     variable: "FLTK_CONFIG_SCRIPT"
     description: "Path to a program."
@@ -20603,7 +20444,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -20625,7 +20465,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:309 (find_path)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "path"
     variable: "FLTK_INCLUDE_DIR"
     description: "Path to a file."
@@ -21089,7 +20929,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -21120,7 +20959,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:333 (find_library)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "FLTK_BASE_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -21184,7 +21023,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -21215,7 +21053,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:334 (find_library)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "FLTK_BASE_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -21291,7 +21129,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -21322,7 +21159,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:338 (find_library)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "FLTK_GL_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -21409,7 +21246,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -21440,7 +21276,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:339 (find_library)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "FLTK_GL_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -21539,7 +21375,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -21570,7 +21405,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:343 (find_library)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "FLTK_FORMS_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -21657,7 +21492,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -21688,7 +21522,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:344 (find_library)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "FLTK_FORMS_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -21787,7 +21621,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -21818,7 +21651,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:348 (find_library)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "FLTK_IMAGES_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -21905,7 +21738,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
@@ -21936,7 +21768,7 @@ events:
     kind: "find-v1"
     backtrace:
       - "/opt/homebrew/share/cmake/Modules/FindFLTK.cmake:349 (find_library)"
-      - "CMakeLists.txt:21 (find_package)"
+      - "src/gui/UI/CMakeLists.txt:8 (find_package)"
     mode: "library"
     variable: "FLTK_IMAGES_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -22035,7 +21867,6 @@ events:
         - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
         - "/pkg/env/global/bin"
         - "/opt/homebrew/bin"
-        - "/opt/homebrew/sbin"
       CMAKE_INSTALL_PREFIX: "/usr/local"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"

@@ -1,9 +1,8 @@
-#include "gui/MainWindow/MainWindow.h"
+#include "gui/widgets/MainWindow/MainWindow.h"
 #include <FL/Fl.H>
 
-int main (int argc, char* argv[]) {
-    Fl_Window* win = new MainWindow{};
-    win->show();
-
+int main(int argc, char** argv) {
+    MainWindow window;
+    window.show(argc, argv);
     return Fl::run();
 }

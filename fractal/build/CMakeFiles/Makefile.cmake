@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/CMakeLists.txt"
   "CMakeFiles/4.4.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.4.5/CMakeSystem.cmake"
+  "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/CMakeLists.txt"
   "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake"
@@ -50,9 +51,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/gui/UI/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/fractal.dir/DependInfo.cmake"
+  "src/gui/UI/CMakeFiles/UI.dir/DependInfo.cmake"
   )

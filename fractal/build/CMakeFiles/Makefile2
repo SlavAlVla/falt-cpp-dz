@@ -64,33 +64,55 @@ CMAKE_BINARY_DIR = /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/program
 
 # The main recursive "all" target.
 all: CMakeFiles/fractal.dir/all
+all: src/gui/UI/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: CMakeFiles/fractal.dir/codegen
+codegen: src/gui/UI/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: src/gui/UI/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/fractal.dir/clean
+clean: src/gui/UI/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory src/gui/UI
+
+# Recursive "all" directory target.
+src/gui/UI/all: src/gui/UI/CMakeFiles/UI.dir/all
+.PHONY : src/gui/UI/all
+
+# Recursive "codegen" directory target.
+src/gui/UI/codegen: src/gui/UI/CMakeFiles/UI.dir/codegen
+.PHONY : src/gui/UI/codegen
+
+# Recursive "preinstall" directory target.
+src/gui/UI/preinstall:
+.PHONY : src/gui/UI/preinstall
+
+# Recursive "clean" directory target.
+src/gui/UI/clean: src/gui/UI/CMakeFiles/UI.dir/clean
+.PHONY : src/gui/UI/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/fractal.dir
 
 # All Build rule for target.
-CMakeFiles/fractal.dir/all:
+CMakeFiles/fractal.dir/all: src/gui/UI/CMakeFiles/UI.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target fractal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Built target fractal"
 .PHONY : CMakeFiles/fractal.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fractal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fractal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles 0
 .PHONY : CMakeFiles/fractal.dir/rule
@@ -102,13 +124,45 @@ fractal: CMakeFiles/fractal.dir/rule
 # codegen rule for target.
 CMakeFiles/fractal.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target fractal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19 "Finished codegen for target fractal"
 .PHONY : CMakeFiles/fractal.dir/codegen
 
 # clean rule for target.
 CMakeFiles/fractal.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/clean
 .PHONY : CMakeFiles/fractal.dir/clean
+
+#=============================================================================
+# Target rules for target src/gui/UI/CMakeFiles/UI.dir
+
+# All Build rule for target.
+src/gui/UI/CMakeFiles/UI.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/gui/UI/CMakeFiles/UI.dir/build.make src/gui/UI/CMakeFiles/UI.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/gui/UI/CMakeFiles/UI.dir/build.make src/gui/UI/CMakeFiles/UI.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=1,2,3 "Built target UI"
+.PHONY : src/gui/UI/CMakeFiles/UI.dir/all
+
+# Build rule for subdir invocation for target.
+src/gui/UI/CMakeFiles/UI.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/gui/UI/CMakeFiles/UI.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles 0
+.PHONY : src/gui/UI/CMakeFiles/UI.dir/rule
+
+# Convenience name for target.
+UI: src/gui/UI/CMakeFiles/UI.dir/rule
+.PHONY : UI
+
+# codegen rule for target.
+src/gui/UI/CMakeFiles/UI.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f src/gui/UI/CMakeFiles/UI.dir/build.make src/gui/UI/CMakeFiles/UI.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target UI"
+.PHONY : src/gui/UI/CMakeFiles/UI.dir/codegen
+
+# clean rule for target.
+src/gui/UI/CMakeFiles/UI.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/gui/UI/CMakeFiles/UI.dir/build.make src/gui/UI/CMakeFiles/UI.dir/clean
+.PHONY : src/gui/UI/CMakeFiles/UI.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

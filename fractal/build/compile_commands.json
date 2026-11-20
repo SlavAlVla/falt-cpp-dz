@@ -1,26 +1,104 @@
 [
 {
   "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
-  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/main.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/main.cpp",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/main.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/main.cpp",
   "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/main.cpp",
   "output": "CMakeFiles/fractal.dir/src/main.cpp.o"
 },
 {
   "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
-  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroup/UIGroup.cpp",
-  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroup/UIGroup.cpp",
-  "output": "CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/core/Complex.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Complex.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Complex.cpp",
+  "output": "CMakeFiles/fractal.dir/src/core/Complex.cpp.o"
 },
 {
   "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
-  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroupManager/UIGroupManager.cpp",
-  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIGroupManager/UIGroupManager.cpp",
-  "output": "CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Mandelbrot.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/core/Mandelbrot.cpp",
+  "output": "CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o"
 },
 {
   "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
-  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIButton/UIButton.cpp",
-  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UIButton/UIButton.cpp",
-  "output": "CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o"
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Colorizer.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Colorizer.cpp",
+  "output": "CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Renderer.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Renderer.cpp",
+  "output": "CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/ImageBuffer.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/ImageBuffer.cpp",
+  "output": "CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Viewport.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/rendering/Viewport.cpp",
+  "output": "CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/controller/FractalController.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/controller/FractalController.cpp",
+  "output": "CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIButton/UIButton.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIButton/UIButton.cpp",
+  "output": "CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIGroupManager/UIGroupManager.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIGroupManager/UIGroupManager.cpp",
+  "output": "CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainWindow/MainWindow.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainWindow/MainWindow.cpp",
+  "output": "CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainGroupManager/MainGroupManager.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/MainGroupManager/MainGroupManager.cpp",
+  "output": "CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/PixelCanvas/PixelCanvas.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/PixelCanvas/PixelCanvas.cpp",
+  "output": "CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/buttons/buttons.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/buttons/buttons.cpp",
+  "output": "CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/groups/groups.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/widgets/groups/groups.cpp",
+  "output": "CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/src/gui/UI",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/UI.dir/UIGroupManager/UIGroupManager.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIGroupManager/UIGroupManager.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIGroupManager/UIGroupManager.cpp",
+  "output": "src/gui/UI/CMakeFiles/UI.dir/UIGroupManager/UIGroupManager.cpp.o"
+},
+{
+  "directory": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/build/src/gui/UI",
+  "command": "/usr/bin/clang++  -I/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI -isystem /opt/homebrew/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -g -std=gnu++17 -arch arm64 -o CMakeFiles/UI.dir/UIButton/UIButton.cpp.o -c /Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIButton/UIButton.cpp",
+  "file": "/Users/slavikaleksandr/Documents/MIPT/1sem/cpp_course/programming-with-cpp/projects/falt-cpp-dz/fractal/src/gui/UI/UIButton/UIButton.cpp",
+  "output": "src/gui/UI/CMakeFiles/UI.dir/UIButton/UIButton.cpp.o"
 }
 ]

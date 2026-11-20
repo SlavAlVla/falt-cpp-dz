@@ -174,77 +174,258 @@ fractal/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/build
 .PHONY : fractal/fast
 
-src/gui/UIButton/UIButton.o: src/gui/UIButton/UIButton.cpp.o
-.PHONY : src/gui/UIButton/UIButton.o
+#=============================================================================
+# Target rules for targets named UI
+
+# Build rule for target.
+UI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 UI
+.PHONY : UI
+
+# fast build rule for target.
+UI/fast:
+	$(MAKE) $(MAKESILENT) -f src/gui/UI/CMakeFiles/UI.dir/build.make src/gui/UI/CMakeFiles/UI.dir/build
+.PHONY : UI/fast
+
+src/controller/FractalController.o: src/controller/FractalController.cpp.o
+.PHONY : src/controller/FractalController.o
 
 # target to build an object file
-src/gui/UIButton/UIButton.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.o
-.PHONY : src/gui/UIButton/UIButton.cpp.o
+src/controller/FractalController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/controller/FractalController.cpp.o
+.PHONY : src/controller/FractalController.cpp.o
 
-src/gui/UIButton/UIButton.i: src/gui/UIButton/UIButton.cpp.i
-.PHONY : src/gui/UIButton/UIButton.i
+src/controller/FractalController.i: src/controller/FractalController.cpp.i
+.PHONY : src/controller/FractalController.i
 
 # target to preprocess a source file
-src/gui/UIButton/UIButton.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.i
-.PHONY : src/gui/UIButton/UIButton.cpp.i
+src/controller/FractalController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/controller/FractalController.cpp.i
+.PHONY : src/controller/FractalController.cpp.i
 
-src/gui/UIButton/UIButton.s: src/gui/UIButton/UIButton.cpp.s
-.PHONY : src/gui/UIButton/UIButton.s
+src/controller/FractalController.s: src/controller/FractalController.cpp.s
+.PHONY : src/controller/FractalController.s
 
 # target to generate assembly for a file
-src/gui/UIButton/UIButton.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UIButton/UIButton.cpp.s
-.PHONY : src/gui/UIButton/UIButton.cpp.s
+src/controller/FractalController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/controller/FractalController.cpp.s
+.PHONY : src/controller/FractalController.cpp.s
 
-src/gui/UIGroup/UIGroup.o: src/gui/UIGroup/UIGroup.cpp.o
-.PHONY : src/gui/UIGroup/UIGroup.o
+src/core/Complex.o: src/core/Complex.cpp.o
+.PHONY : src/core/Complex.o
 
 # target to build an object file
-src/gui/UIGroup/UIGroup.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.o
-.PHONY : src/gui/UIGroup/UIGroup.cpp.o
+src/core/Complex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/core/Complex.cpp.o
+.PHONY : src/core/Complex.cpp.o
 
-src/gui/UIGroup/UIGroup.i: src/gui/UIGroup/UIGroup.cpp.i
-.PHONY : src/gui/UIGroup/UIGroup.i
+src/core/Complex.i: src/core/Complex.cpp.i
+.PHONY : src/core/Complex.i
 
 # target to preprocess a source file
-src/gui/UIGroup/UIGroup.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.i
-.PHONY : src/gui/UIGroup/UIGroup.cpp.i
+src/core/Complex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/core/Complex.cpp.i
+.PHONY : src/core/Complex.cpp.i
 
-src/gui/UIGroup/UIGroup.s: src/gui/UIGroup/UIGroup.cpp.s
-.PHONY : src/gui/UIGroup/UIGroup.s
+src/core/Complex.s: src/core/Complex.cpp.s
+.PHONY : src/core/Complex.s
 
 # target to generate assembly for a file
-src/gui/UIGroup/UIGroup.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UIGroup/UIGroup.cpp.s
-.PHONY : src/gui/UIGroup/UIGroup.cpp.s
+src/core/Complex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/core/Complex.cpp.s
+.PHONY : src/core/Complex.cpp.s
 
-src/gui/UIGroupManager/UIGroupManager.o: src/gui/UIGroupManager/UIGroupManager.cpp.o
-.PHONY : src/gui/UIGroupManager/UIGroupManager.o
+src/core/Mandelbrot.o: src/core/Mandelbrot.cpp.o
+.PHONY : src/core/Mandelbrot.o
 
 # target to build an object file
-src/gui/UIGroupManager/UIGroupManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.o
-.PHONY : src/gui/UIGroupManager/UIGroupManager.cpp.o
+src/core/Mandelbrot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.o
+.PHONY : src/core/Mandelbrot.cpp.o
 
-src/gui/UIGroupManager/UIGroupManager.i: src/gui/UIGroupManager/UIGroupManager.cpp.i
-.PHONY : src/gui/UIGroupManager/UIGroupManager.i
+src/core/Mandelbrot.i: src/core/Mandelbrot.cpp.i
+.PHONY : src/core/Mandelbrot.i
 
 # target to preprocess a source file
-src/gui/UIGroupManager/UIGroupManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.i
-.PHONY : src/gui/UIGroupManager/UIGroupManager.cpp.i
+src/core/Mandelbrot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.i
+.PHONY : src/core/Mandelbrot.cpp.i
 
-src/gui/UIGroupManager/UIGroupManager.s: src/gui/UIGroupManager/UIGroupManager.cpp.s
-.PHONY : src/gui/UIGroupManager/UIGroupManager.s
+src/core/Mandelbrot.s: src/core/Mandelbrot.cpp.s
+.PHONY : src/core/Mandelbrot.s
 
 # target to generate assembly for a file
-src/gui/UIGroupManager/UIGroupManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UIGroupManager/UIGroupManager.cpp.s
-.PHONY : src/gui/UIGroupManager/UIGroupManager.cpp.s
+src/core/Mandelbrot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/core/Mandelbrot.cpp.s
+.PHONY : src/core/Mandelbrot.cpp.s
+
+src/gui/UI/UIButton/UIButton.o: src/gui/UI/UIButton/UIButton.cpp.o
+.PHONY : src/gui/UI/UIButton/UIButton.o
+
+# target to build an object file
+src/gui/UI/UIButton/UIButton.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.o
+.PHONY : src/gui/UI/UIButton/UIButton.cpp.o
+
+src/gui/UI/UIButton/UIButton.i: src/gui/UI/UIButton/UIButton.cpp.i
+.PHONY : src/gui/UI/UIButton/UIButton.i
+
+# target to preprocess a source file
+src/gui/UI/UIButton/UIButton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.i
+.PHONY : src/gui/UI/UIButton/UIButton.cpp.i
+
+src/gui/UI/UIButton/UIButton.s: src/gui/UI/UIButton/UIButton.cpp.s
+.PHONY : src/gui/UI/UIButton/UIButton.s
+
+# target to generate assembly for a file
+src/gui/UI/UIButton/UIButton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UI/UIButton/UIButton.cpp.s
+.PHONY : src/gui/UI/UIButton/UIButton.cpp.s
+
+src/gui/UI/UIGroupManager/UIGroupManager.o: src/gui/UI/UIGroupManager/UIGroupManager.cpp.o
+.PHONY : src/gui/UI/UIGroupManager/UIGroupManager.o
+
+# target to build an object file
+src/gui/UI/UIGroupManager/UIGroupManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.o
+.PHONY : src/gui/UI/UIGroupManager/UIGroupManager.cpp.o
+
+src/gui/UI/UIGroupManager/UIGroupManager.i: src/gui/UI/UIGroupManager/UIGroupManager.cpp.i
+.PHONY : src/gui/UI/UIGroupManager/UIGroupManager.i
+
+# target to preprocess a source file
+src/gui/UI/UIGroupManager/UIGroupManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.i
+.PHONY : src/gui/UI/UIGroupManager/UIGroupManager.cpp.i
+
+src/gui/UI/UIGroupManager/UIGroupManager.s: src/gui/UI/UIGroupManager/UIGroupManager.cpp.s
+.PHONY : src/gui/UI/UIGroupManager/UIGroupManager.s
+
+# target to generate assembly for a file
+src/gui/UI/UIGroupManager/UIGroupManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/UI/UIGroupManager/UIGroupManager.cpp.s
+.PHONY : src/gui/UI/UIGroupManager/UIGroupManager.cpp.s
+
+src/gui/widgets/MainGroupManager/MainGroupManager.o: src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o
+.PHONY : src/gui/widgets/MainGroupManager/MainGroupManager.o
+
+# target to build an object file
+src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o
+.PHONY : src/gui/widgets/MainGroupManager/MainGroupManager.cpp.o
+
+src/gui/widgets/MainGroupManager/MainGroupManager.i: src/gui/widgets/MainGroupManager/MainGroupManager.cpp.i
+.PHONY : src/gui/widgets/MainGroupManager/MainGroupManager.i
+
+# target to preprocess a source file
+src/gui/widgets/MainGroupManager/MainGroupManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.i
+.PHONY : src/gui/widgets/MainGroupManager/MainGroupManager.cpp.i
+
+src/gui/widgets/MainGroupManager/MainGroupManager.s: src/gui/widgets/MainGroupManager/MainGroupManager.cpp.s
+.PHONY : src/gui/widgets/MainGroupManager/MainGroupManager.s
+
+# target to generate assembly for a file
+src/gui/widgets/MainGroupManager/MainGroupManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/MainGroupManager/MainGroupManager.cpp.s
+.PHONY : src/gui/widgets/MainGroupManager/MainGroupManager.cpp.s
+
+src/gui/widgets/MainWindow/MainWindow.o: src/gui/widgets/MainWindow/MainWindow.cpp.o
+.PHONY : src/gui/widgets/MainWindow/MainWindow.o
+
+# target to build an object file
+src/gui/widgets/MainWindow/MainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.o
+.PHONY : src/gui/widgets/MainWindow/MainWindow.cpp.o
+
+src/gui/widgets/MainWindow/MainWindow.i: src/gui/widgets/MainWindow/MainWindow.cpp.i
+.PHONY : src/gui/widgets/MainWindow/MainWindow.i
+
+# target to preprocess a source file
+src/gui/widgets/MainWindow/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.i
+.PHONY : src/gui/widgets/MainWindow/MainWindow.cpp.i
+
+src/gui/widgets/MainWindow/MainWindow.s: src/gui/widgets/MainWindow/MainWindow.cpp.s
+.PHONY : src/gui/widgets/MainWindow/MainWindow.s
+
+# target to generate assembly for a file
+src/gui/widgets/MainWindow/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/MainWindow/MainWindow.cpp.s
+.PHONY : src/gui/widgets/MainWindow/MainWindow.cpp.s
+
+src/gui/widgets/PixelCanvas/PixelCanvas.o: src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o
+.PHONY : src/gui/widgets/PixelCanvas/PixelCanvas.o
+
+# target to build an object file
+src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o
+.PHONY : src/gui/widgets/PixelCanvas/PixelCanvas.cpp.o
+
+src/gui/widgets/PixelCanvas/PixelCanvas.i: src/gui/widgets/PixelCanvas/PixelCanvas.cpp.i
+.PHONY : src/gui/widgets/PixelCanvas/PixelCanvas.i
+
+# target to preprocess a source file
+src/gui/widgets/PixelCanvas/PixelCanvas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.i
+.PHONY : src/gui/widgets/PixelCanvas/PixelCanvas.cpp.i
+
+src/gui/widgets/PixelCanvas/PixelCanvas.s: src/gui/widgets/PixelCanvas/PixelCanvas.cpp.s
+.PHONY : src/gui/widgets/PixelCanvas/PixelCanvas.s
+
+# target to generate assembly for a file
+src/gui/widgets/PixelCanvas/PixelCanvas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/PixelCanvas/PixelCanvas.cpp.s
+.PHONY : src/gui/widgets/PixelCanvas/PixelCanvas.cpp.s
+
+src/gui/widgets/buttons/buttons.o: src/gui/widgets/buttons/buttons.cpp.o
+.PHONY : src/gui/widgets/buttons/buttons.o
+
+# target to build an object file
+src/gui/widgets/buttons/buttons.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.o
+.PHONY : src/gui/widgets/buttons/buttons.cpp.o
+
+src/gui/widgets/buttons/buttons.i: src/gui/widgets/buttons/buttons.cpp.i
+.PHONY : src/gui/widgets/buttons/buttons.i
+
+# target to preprocess a source file
+src/gui/widgets/buttons/buttons.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.i
+.PHONY : src/gui/widgets/buttons/buttons.cpp.i
+
+src/gui/widgets/buttons/buttons.s: src/gui/widgets/buttons/buttons.cpp.s
+.PHONY : src/gui/widgets/buttons/buttons.s
+
+# target to generate assembly for a file
+src/gui/widgets/buttons/buttons.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/buttons/buttons.cpp.s
+.PHONY : src/gui/widgets/buttons/buttons.cpp.s
+
+src/gui/widgets/groups/groups.o: src/gui/widgets/groups/groups.cpp.o
+.PHONY : src/gui/widgets/groups/groups.o
+
+# target to build an object file
+src/gui/widgets/groups/groups.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.o
+.PHONY : src/gui/widgets/groups/groups.cpp.o
+
+src/gui/widgets/groups/groups.i: src/gui/widgets/groups/groups.cpp.i
+.PHONY : src/gui/widgets/groups/groups.i
+
+# target to preprocess a source file
+src/gui/widgets/groups/groups.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.i
+.PHONY : src/gui/widgets/groups/groups.cpp.i
+
+src/gui/widgets/groups/groups.s: src/gui/widgets/groups/groups.cpp.s
+.PHONY : src/gui/widgets/groups/groups.s
+
+# target to generate assembly for a file
+src/gui/widgets/groups/groups.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/gui/widgets/groups/groups.cpp.s
+.PHONY : src/gui/widgets/groups/groups.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -270,6 +451,102 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/rendering/Colorizer.o: src/rendering/Colorizer.cpp.o
+.PHONY : src/rendering/Colorizer.o
+
+# target to build an object file
+src/rendering/Colorizer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.o
+.PHONY : src/rendering/Colorizer.cpp.o
+
+src/rendering/Colorizer.i: src/rendering/Colorizer.cpp.i
+.PHONY : src/rendering/Colorizer.i
+
+# target to preprocess a source file
+src/rendering/Colorizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.i
+.PHONY : src/rendering/Colorizer.cpp.i
+
+src/rendering/Colorizer.s: src/rendering/Colorizer.cpp.s
+.PHONY : src/rendering/Colorizer.s
+
+# target to generate assembly for a file
+src/rendering/Colorizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/Colorizer.cpp.s
+.PHONY : src/rendering/Colorizer.cpp.s
+
+src/rendering/ImageBuffer.o: src/rendering/ImageBuffer.cpp.o
+.PHONY : src/rendering/ImageBuffer.o
+
+# target to build an object file
+src/rendering/ImageBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.o
+.PHONY : src/rendering/ImageBuffer.cpp.o
+
+src/rendering/ImageBuffer.i: src/rendering/ImageBuffer.cpp.i
+.PHONY : src/rendering/ImageBuffer.i
+
+# target to preprocess a source file
+src/rendering/ImageBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.i
+.PHONY : src/rendering/ImageBuffer.cpp.i
+
+src/rendering/ImageBuffer.s: src/rendering/ImageBuffer.cpp.s
+.PHONY : src/rendering/ImageBuffer.s
+
+# target to generate assembly for a file
+src/rendering/ImageBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/ImageBuffer.cpp.s
+.PHONY : src/rendering/ImageBuffer.cpp.s
+
+src/rendering/Renderer.o: src/rendering/Renderer.cpp.o
+.PHONY : src/rendering/Renderer.o
+
+# target to build an object file
+src/rendering/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.o
+.PHONY : src/rendering/Renderer.cpp.o
+
+src/rendering/Renderer.i: src/rendering/Renderer.cpp.i
+.PHONY : src/rendering/Renderer.i
+
+# target to preprocess a source file
+src/rendering/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.i
+.PHONY : src/rendering/Renderer.cpp.i
+
+src/rendering/Renderer.s: src/rendering/Renderer.cpp.s
+.PHONY : src/rendering/Renderer.s
+
+# target to generate assembly for a file
+src/rendering/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/Renderer.cpp.s
+.PHONY : src/rendering/Renderer.cpp.s
+
+src/rendering/Viewport.o: src/rendering/Viewport.cpp.o
+.PHONY : src/rendering/Viewport.o
+
+# target to build an object file
+src/rendering/Viewport.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.o
+.PHONY : src/rendering/Viewport.cpp.o
+
+src/rendering/Viewport.i: src/rendering/Viewport.cpp.i
+.PHONY : src/rendering/Viewport.i
+
+# target to preprocess a source file
+src/rendering/Viewport.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.i
+.PHONY : src/rendering/Viewport.cpp.i
+
+src/rendering/Viewport.s: src/rendering/Viewport.cpp.s
+.PHONY : src/rendering/Viewport.s
+
+# target to generate assembly for a file
+src/rendering/Viewport.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fractal.dir/build.make CMakeFiles/fractal.dir/src/rendering/Viewport.cpp.s
+.PHONY : src/rendering/Viewport.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -282,19 +559,53 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... UI"
 	@echo "... fractal"
-	@echo "... src/gui/UIButton/UIButton.o"
-	@echo "... src/gui/UIButton/UIButton.i"
-	@echo "... src/gui/UIButton/UIButton.s"
-	@echo "... src/gui/UIGroup/UIGroup.o"
-	@echo "... src/gui/UIGroup/UIGroup.i"
-	@echo "... src/gui/UIGroup/UIGroup.s"
-	@echo "... src/gui/UIGroupManager/UIGroupManager.o"
-	@echo "... src/gui/UIGroupManager/UIGroupManager.i"
-	@echo "... src/gui/UIGroupManager/UIGroupManager.s"
+	@echo "... src/controller/FractalController.o"
+	@echo "... src/controller/FractalController.i"
+	@echo "... src/controller/FractalController.s"
+	@echo "... src/core/Complex.o"
+	@echo "... src/core/Complex.i"
+	@echo "... src/core/Complex.s"
+	@echo "... src/core/Mandelbrot.o"
+	@echo "... src/core/Mandelbrot.i"
+	@echo "... src/core/Mandelbrot.s"
+	@echo "... src/gui/UI/UIButton/UIButton.o"
+	@echo "... src/gui/UI/UIButton/UIButton.i"
+	@echo "... src/gui/UI/UIButton/UIButton.s"
+	@echo "... src/gui/UI/UIGroupManager/UIGroupManager.o"
+	@echo "... src/gui/UI/UIGroupManager/UIGroupManager.i"
+	@echo "... src/gui/UI/UIGroupManager/UIGroupManager.s"
+	@echo "... src/gui/widgets/MainGroupManager/MainGroupManager.o"
+	@echo "... src/gui/widgets/MainGroupManager/MainGroupManager.i"
+	@echo "... src/gui/widgets/MainGroupManager/MainGroupManager.s"
+	@echo "... src/gui/widgets/MainWindow/MainWindow.o"
+	@echo "... src/gui/widgets/MainWindow/MainWindow.i"
+	@echo "... src/gui/widgets/MainWindow/MainWindow.s"
+	@echo "... src/gui/widgets/PixelCanvas/PixelCanvas.o"
+	@echo "... src/gui/widgets/PixelCanvas/PixelCanvas.i"
+	@echo "... src/gui/widgets/PixelCanvas/PixelCanvas.s"
+	@echo "... src/gui/widgets/buttons/buttons.o"
+	@echo "... src/gui/widgets/buttons/buttons.i"
+	@echo "... src/gui/widgets/buttons/buttons.s"
+	@echo "... src/gui/widgets/groups/groups.o"
+	@echo "... src/gui/widgets/groups/groups.i"
+	@echo "... src/gui/widgets/groups/groups.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/rendering/Colorizer.o"
+	@echo "... src/rendering/Colorizer.i"
+	@echo "... src/rendering/Colorizer.s"
+	@echo "... src/rendering/ImageBuffer.o"
+	@echo "... src/rendering/ImageBuffer.i"
+	@echo "... src/rendering/ImageBuffer.s"
+	@echo "... src/rendering/Renderer.o"
+	@echo "... src/rendering/Renderer.i"
+	@echo "... src/rendering/Renderer.s"
+	@echo "... src/rendering/Viewport.o"
+	@echo "... src/rendering/Viewport.i"
+	@echo "... src/rendering/Viewport.s"
 .PHONY : help
 
 
