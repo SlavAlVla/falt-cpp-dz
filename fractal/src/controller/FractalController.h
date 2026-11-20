@@ -7,6 +7,7 @@ class FractalController {
     explicit FractalController (Renderer renderer = Renderer{});
 
     ImageBuffer render (int width, int height) const;
+    void set_fractal_max_iterations ();
     Viewport& viewport () noexcept;
     Mandelbrot& fractal () noexcept;
     void set_max_iterations ();
